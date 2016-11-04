@@ -13,7 +13,6 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/tweet', 'TweetController@store');
 Route::post('/tweet', 'TweetController@store');
 
 Route::get('/user', function (Request $request) {
